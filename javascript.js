@@ -6,7 +6,7 @@ let ham_flag = true;
 function toggleHamburgerMenu() {
   if (ham_flag) {
     let id = null; 
-    let pos = -100;
+    let pos = -150;
     clearInterval(id);
     id = setInterval(frame, 0.1);
     function frame() {
@@ -21,7 +21,7 @@ function toggleHamburgerMenu() {
    // console.log("in screen!");
    ham_flag = false;
   } else {
-   x.style.right = "-130px";
+   x.style.right = "-150px";
    console.log("off screen");
    ham_flag = true;
   }
