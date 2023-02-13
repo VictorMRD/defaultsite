@@ -4,70 +4,34 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>RMA - La Paz</title>
  <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-  <nav class="navbar">
-    <h1 class="logo">
-      Dummy Header Logo
-    </h1>
-    <div class="links">
-      <a href="#part1" class="link-1">Dummy Header 1</a>
-      <a href="#part2" class="link-2">Dummy Header 2</a>
-      <a href="#part3" class="link-3">Dummy Header 3</a>
-    </div>
-  </nav>
+  <body>
 
-  <div class="sec-1" id="sec1">
-    <div class="container">
-      <h1>Dummy Title<br> Dummy</h1>
-      <p>Dummy Subtitle
-      </p>
-      <button class="button">Dummy Button</button>
+    <div id="hamburger-m">
+      <p onclick="toggleHamburgerMenu()" >Menu</p>
     </div>
-    <div class="img-container">
-      Dummy PlaceHolder
-    </div>
-  </div>
+    <ul id="h-submenu">
+      <li>¿Quienes somos?</li>
+      <li>Unete</li>
+      <li>Contacto</li>
+      <li id="back" onclick="toggleHamburgerMenu()">Cerrar</li>
+    </ul>
 
-  <div class="sec-2" id="sec2">
-    <h1>Dummy Title</h1>
-    <div class="container">
-      <div class="box-container">
-       <div class="box"></div> 
-       <p>Dummy Text Under Image</p>
-      </div>
-      <div class="box-container">
-       <div class="box"></div> 
-       <p>Dummy Text Under Image</p>
-      </div>
-      <div class="box-container">
-       <div class="box"></div> 
-       <p>Dummy Text Under Image</p>
-      </div>
-      <div class="box-container">
-       <div class="box"></div> 
-       <p>Dummy Text Under Image</p>
-      </div>
-    </div>   
-  </div>
-  <div class="sec-3" id="sec3">
-    <div class="container">
-     <p>Dummy Text</p>
-      <p class="right-text">-Dummy Text</p>
+    <nav>
+      <h1><p> <span class="first-part">RMA</span> <span class="second-part"> x LAPAZ </span></p></h1>
+      <ul>
+        <li>¿Quienes somos?</li>
+        <li>Unete</li>
+        <li>Contacto</li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <div>Hello</div>
     </div>
-  </div>
-  <div class="sec-4" id="sec4">
-    <div class="container">
-      <h1>Dummy Title</h1>
-      <p>Dummy Text</p>
-    </div>
-    <button class="button">Dummy Button</button>
-  </div>
-  <div class="footer" id="footer">
-    <p> RMA x La Paz </p>
-  </div>
-</body>
+    <script src="javascript.js"></script>
+  </body>
+
 </html>
