@@ -12,7 +12,11 @@
   box-sizing: border-box;
 }
 
-.hamburger-m{
+#hamburger-m{
+  display: none;
+}
+
+#h-submenu{
   display: none;
 }
 
